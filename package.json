@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/conventional-changelog/commitlint.git",
+    "url": "https://gitlab.itservices.lan/nasc/red/config-conversational-with-ticket-subjects",
     "directory": "@commitlint/config-conventional"
   },
   "keywords": [
@@ -25,9 +25,6 @@
   ],
   "author": "Rene Weteling <rene@weteling.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/conventional-changelog/commitlint/issues"
-  },
   "homepage": "https://commitlint.js.org/",
   "engines": {
     "node": ">=v14"
@@ -36,6 +33,7 @@
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "commitlint-plugin-function-rules": "^1.0.0",
     "@commitlint/cli": "^17.4",
-    "@commitlint/config-conventional": "^17.4"
+    "@commitlint/config-conventional": "^17.4",
+    "husky": "^8.0"
   }
 }

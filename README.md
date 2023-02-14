@@ -1,6 +1,10 @@
-> Lint your conventional commits
+# Lint your conventional commits with jira ticket numbers
 
-# @commitlint/config-conventional
+# @commitlint/config-conversational-with-ticket-subjects
+
+Extension on @commitlint/config-conventional, to add ticket numbers in subjects
+
+feat(red-123): something, or feat: something will be valid.
 
 Shareable `commitlint` config enforcing [conventional commits](https://conventionalcommits.org/).
 Use with [@commitlint/cli](https://npm.im/@commitlint/cli) and [@commitlint/prompt-cli](https://npm.im/@commitlint/prompt-cli).
@@ -8,15 +12,15 @@ Use with [@commitlint/cli](https://npm.im/@commitlint/cli) and [@commitlint/prom
 ## Getting started
 
 ```sh
-npm install --save-dev @commitlint/config-conventional @commitlint/cli
-echo "module.exports = {extends: ['@commitlint/config-conventional']};" > commitlint.config.js
+npm install --save-dev @commitlint/config-conversational-with-ticket-subjects
+echo "module.exports = {extends: ['@commitlint/config-conversational-with-ticket-subjects']};" > commitlint.config.js
 ```
 
 ## Rules
 
 ### Problems
 
-The following rules are considered problems for `@commitlint/config-conventional` and will yield a non-zero exit code when not met.
+The following rules are considered problems for `@commitlint/config-conversational-with-ticket-subjects` and will yield a non-zero exit code when not met.
 
 Consult [docs/rules](https://conventional-changelog.github.io/commitlint/#/reference-rules) for a list of available rules.
 
