@@ -1,0 +1,41 @@
+{
+  "name": "@commitlint/config-conversational-with-ticket-subjects",
+  "version": "0.0.1",
+  "description": "Shareable commitlint config enforcing ticket refs in subject",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "deps": "dep-check",
+    "pkg": "pkg-check"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conventional-changelog/commitlint.git",
+    "directory": "@commitlint/config-conventional"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "commitlint",
+    "commitlint-config",
+    "angular"
+  ],
+  "author": "Rene Weteling <rene@weteling.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/commitlint/issues"
+  },
+  "homepage": "https://commitlint.js.org/",
+  "engines": {
+    "node": ">=v14"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "commitlint-plugin-function-rules": "^1.0.0",
+    "@commitlint/cli": "^17.4",
+    "@commitlint/config-conventional": "^17.4"
+  }
+}
