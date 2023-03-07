@@ -8,7 +8,7 @@ module.exports = {
       2,
       "always",
       (parsed) => {
-        const headerRegex = /^(\w*)(\(([a-z]{2,8}-[0-9]+)\))?:(.+)$/g;
+        const headerRegex = /^(\w*)(\(([A-Z]{2,8}-[0-9]+)\))?:(.+)$/g;
         return parsed.header.match(headerRegex)
           ? [true]
           : [
